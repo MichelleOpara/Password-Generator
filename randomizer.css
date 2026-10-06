@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    /* background-color: rgb(179, 201, 241); */
+    /* background-image: url(image.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main{
+    background-color: rgba(210, 180, 140, 0.6);
+    padding: 50px;
+    padding-top: 5px;
+    border-radius: 7px;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+h3{
+    margin-top: 2px;
+    letter-spacing: 7px;
+    margin-bottom: 0px;
+}
+h1{
+    margin-bottom: 2px;
+}
+p{
+    margin-top: 7px;
+}
+#form{
+    border: 2px solid  rgba(245, 245, 220);
+    width: 100%;  
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 25px;
+}
+#text{
+    letter-spacing: 15px;
+}
+hr{
+    height: 2px;
+    background-color: rgb(153, 39, 39);
+    border: none;
+    width: 20%;
+}
+input[type="range"]{
+    width: 80%;
+    margin-top: 30px;
+}
+#toggle{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+    
+
+}
+#password-btn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    cursor: pointer;
+    color: rgb(86, 22, 22);
+    
+}
+#passwords , #copy{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
+}
+#copy{
+    cursor: pointer;
+}
